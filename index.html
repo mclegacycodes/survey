@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+ <!--    custom css -->
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <main class="container main"> 
+    	<!-- headings at the top of the form -->
+    	<div >
+    		<center><h1 id="title" class="text-white">MclegacyToons Survey Form</h1>
+    		<p id="description" class="text-white">Thank you for taking the time to help us improve our platform</p></center>
+    	</div>
+
+    	<!-- main form -->
+    	
+    	<div >
+    		<form id="survey-form" >
+    			<label for="name">
+    				<p class="label-text">Name</p>
+    			<input type="text" name="name" placeholder="Enter your name" id="name" class="block">
+    		</label>
+
+    		<label for="email">
+    			<p class="label-text">Email</p>
+    			<input type="email" name="email" placeholder="Enter your email" id="email" required="" class="block">
+    		</label>
+
+    		<label for="age">
+    			<p class="label-text">Age</p>
+    			<input type="number" name="age" placeholder="Enter your age" id="age" required="" class="block">
+    		</label>
+
+			<label for="select">
+				<p class="label-text">Which option best describes your current role?</p>
+	    		<select id="dropdown" name="select" class="select block">
+	    			<option>
+	    				Select current role
+	    			</option>
+	    			<option>
+	    				Student
+	    			</option>
+	    			<option>
+	    				Full Time Job
+	    			</option>
+	    			<option>
+	    				Full Time Leaner
+	    			</option>
+	    			<option>
+	    				Prefer not to say
+	    			</option>
+	    			<option>
+	    				Other
+	    			</option>
+	    		</select>
+			</label>
+
+    		<label for="radio">
+    			<p class="label-text">Would you recommend mclegacy toons to your friend?</p>
+    			<input type="radio" name="radio" class="radio"><p class="label-text radio">Definitely</p> <br>
+    			<input type="radio" name="radio" class="radio"><p class="label-text radio">Maybe </p><br>
+    			<input type="radio" name="radio" class="radio"><p class="label-text radio">Not Sure</p>
+    		</label>
+
+
+
+			<label for="select">
+				<p class="label-text">What is your favorite feature of mclegacy toons?</p>
+	    		<select id="dropdown" name="select" class="select block">
+	    			<option>
+	    				select an option
+	    			</option>
+	    			<option>
+	    				Give away
+	    			</option>
+	    			<option>
+	    				Free Delivery
+	    			</option>
+	    			<option>
+	    				Cartoon tutorials
+	    			</option>
+	    			<option>
+	    				Prefer not to say
+	    			</option>
+	    			<option>
+	    				Other
+	    			</option>
+	    		</select>
+			</label>
+
+
+
+			<label for="checkbox">
+				<p class="label-text">What would you like to see improved? (Check all that apply)</p>
+				<input type="checkbox" name="checkbox" class="check-b"><p class="label-text check">Front-end Projects</p> <br>
+				<input type="checkbox" name="checkbox" ><p class="label-text check">Data Visualization</p> <br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">Challenges</p> <br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">Open Source Community</p><br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">Gitter Help Rooms</p><br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">Videos</p><br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">City Meetups</p><br>
+				<input type="checkbox" name="checkbox"><p class="label-text check">Forums</p><br>
+			</label>
+
+			<label for="textarea">
+				<p class="label-text">Any comments or suggestions</p> 
+				<input type="textarea" name="textarea" placeholder="Enter your comments here..." class="block text-area">
+			</label>
+
+			<button class="bg-success text-white">submit</button>
+    		</form>
+    	</div>
+    	
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
